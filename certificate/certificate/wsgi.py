@@ -10,10 +10,10 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
-from whitenoise.django import DjangoWhiteNoice
+# from whitenoise.django import DjangoWhiteNoice
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'certificate.settings')
 
 application = get_wsgi_application()
-application = DjangoWhiteNoice(application)
+# application = DjangoWhiteNoice(application)
 
