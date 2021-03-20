@@ -1,4 +1,6 @@
-# testing
+# Project to Print certificates automatically
 
 
-to run the project: python manage.py runserver
+## To run the project 
+
+python manage.py runserver
