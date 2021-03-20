@@ -1,3 +1,3 @@
 FROM python:3.8-slim-buster
-COPY . .
+COPY ./certificate .
 CMD [ "python3", "manage.py", "runserver" ]
